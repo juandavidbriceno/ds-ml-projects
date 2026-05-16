@@ -34,8 +34,8 @@ def plot_histograms_real_variables(df):
         con = con + 1
         plot_column_histogram(df_to_mod, i, con)
         
-#Defining a method that removes outlayers from a dataframe column.       
-def remove_outlayers_base_on_column(df, column_name):
+#Defining a method that removes outliers from a dataframe column.       
+def remove_outliers_base_on_column(df, column_name):
     df_to_mod = df
     variable = df_to_mod[column_name]
     q1 = variable.quantile(0.25)
@@ -44,13 +44,13 @@ def remove_outlayers_base_on_column(df, column_name):
     df_to_mod = df_to_mod[~((variable < (q1 - 1.5 * IQR)) |(variable > (q3 + 1.5 * IQR)))]
     return df_to_mod
 
-#Defining a method that removes outlayers from all columns in a  dataframe.    
-def remove_outlayers_in_df(df):
+#Defining a method that removes outliers from all columns in a  dataframe.    
+def remove_outliers_in_df(df):
     df_to_mod = df
     cols = list(df_to_mod.columns)
     
     for i in cols:
-        df_to_mod = remove_outlayers_base_on_column(df_to_mod,i)
+        df_to_mod = remove_outliers_base_on_column(df_to_mod,i)
     
     return df_to_mod
 
