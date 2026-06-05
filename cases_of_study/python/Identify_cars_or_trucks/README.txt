@@ -22,7 +22,7 @@ conda create -n myenv python=3.10
 conda activate myenv
 
 2. Install libraries this project use.
-ip install tensorflow==2.12.0
+pip install tensorflow==2.12.0
 pip install numpy==1.23.5
 pip install matplotlib==3.7.1
 pip install ipykernel
