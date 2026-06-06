@@ -1,7 +1,7 @@
 ### Project: Identify cars or trucks
 
 #### Notes:
-- This project was developed and executed on a Windows environment.
+- This project was developed and executed on a Windows operating system.
 - This project create an environment and install python libraries with bash.
 - Then, all code is run on a Jupyter notebook file.
 
