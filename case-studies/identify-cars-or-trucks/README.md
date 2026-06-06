@@ -29,7 +29,7 @@ conda create -n myenv python=3.10
 conda activate myenv
 ```
 
-#### 2. Install libraries this project use
+#### 2. Install the libraries this project uses
 ```bash
 pip install tensorflow==2.12.0
 pip install numpy==1.23.5
@@ -37,7 +37,7 @@ pip install matplotlib==3.7.1
 pip install ipykernel
 python -m ipykernel install --user --name=myenv --display-name "Python (myenv)"
 ```
-#### 3. Open Jupyter Notebook in Anaconda Navigator
+#### 3. Open a Jupyter Notebook in Anaconda Navigator
 ```bash
 jupyter notebook
 ```
