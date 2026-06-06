@@ -1,23 +1,22 @@
-README
+### Project: Identify cars or trucks
 
-Project: Identify cars or trucks
+#### Notes:
+- This project was developed and executed on a Windows environment.
+- This project create an environment and install python libraries with bash.
+- Then, all code is run on a Jupyter notebook file.
 
-Notes:
--This project was run on a Windows PC.
--This project create an environment and install python libraries with bash.
--Then, all code is run on a Jupyter notebook file.
+#### packages versions:
 
-packages versions:
-Python 3.10
-TensorFlow 2.12.0
-NumPy 1.23.5
-Matplotlib 3.7.1
+Python 3.10  
+TensorFlow 2.12.0  
+NumPy 1.23.5  
+Matplotlib 3.7.1  
 
-1. Create an environment in conda for this project.
+#### 1. Create an environment in conda for this project.
 
-In bash(Anaconda prompt):
+In bash (Anaconda prompt):
 
-#
+```bash
 conda create -n myenv python=3.10
 conda activate myenv
 
