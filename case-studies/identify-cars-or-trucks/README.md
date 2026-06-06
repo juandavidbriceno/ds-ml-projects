@@ -2,8 +2,8 @@
 
 #### Notes:
 - This project was developed and executed on a Windows operating system.
-- This project requires creating a conda environment and install its associated python libraries with bash.
-- Then, all code is run on a Jupyter notebook file.
+- A conda environment must be created, and the required Python libraries installed via bash.
+- All code is run in a Jupyter Notebook
 
 #### Dataset
 This project uses the [Car or Truck?](https://www.kaggle.com/datasets/ryanholbrook/car-or-truck) dataset from Kaggle.
