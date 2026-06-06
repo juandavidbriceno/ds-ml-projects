@@ -2,7 +2,7 @@
 
 #### Notes:
 - This project was developed and executed on a Windows operating system.
-- This project create an environment and install python libraries with bash.
+- This project requires creating a conda environment and install its associated python libraries with bash.
 - Then, all code is run on a Jupyter notebook file.
 
 #### Dataset
