@@ -1,6 +1,6 @@
 README
 
-Project:Identify_cars_or_trucks
+Project:Identify cars or trucks
 
 Notes:
 -This project was run on a Windows PC.
