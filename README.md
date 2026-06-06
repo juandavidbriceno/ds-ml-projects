@@ -2,6 +2,5 @@
 
   - We will discover applications of ML and Data Science for real life situations.
   - For each project I'll aim to expose best coding practices and a tuning approaches to improve results.
-  - 
 I hope you will enjoy it!
 
