@@ -5,6 +5,14 @@
 - This project create an environment and install python libraries with bash.
 - Then, all code is run on a Jupyter notebook file.
 
+#### Dataset
+This project uses the [Car or Truck?](https://www.kaggle.com/datasets/ryanholbrook/car-or-truck) dataset from Kaggle.
+
+- **Source:** Kaggle  
+- **License:** Data files © Original Authors  
+- **Description:** The dataset contains several images of cars and trucks in a homogeneous style.  
+- **How to access:** Kaggle requires you to accept their terms, so users may need to download it manually.
+
 #### packages versions:
 
 Python 3.10  
@@ -33,10 +41,3 @@ python -m ipykernel install --user --name=myenv --display-name "Python (myenv)"
 ```bash
 jupyter notebook
 ```
-#### Dataset
-This project uses the [Car or Truck?](https://www.kaggle.com/datasets/ryanholbrook/car-or-truck) dataset from Kaggle.
-
-- **Source:** Kaggle  
-- **License:** Data files © Original Authors  
-- **Description:** The dataset contains several images of cars and trucks in a homogeneous style.  
-- **How to access:** Kaggle requires you to accept their terms, so users may need to download it manually.
